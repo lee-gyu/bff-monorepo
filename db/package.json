@@ -1,0 +1,21 @@
+{
+    "name": "@lee-gyu/db",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "db:gen": "drizzle-kit generate",
+        "db:mig": "drizzle-kit migrate"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "drizzle-kit": "^0.30.2"
+    },
+    "dependencies": {
+        "drizzle-orm": "^0.38.4",
+        "pg": "^8.13.1"
+    }
+}
