@@ -2,4 +2,4 @@ packages:
     - backend/
     - frontend/
     - db/
-    - lib/
+    - shared/*

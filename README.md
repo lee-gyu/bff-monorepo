@@ -29,5 +29,17 @@ Thanks, if you need some help, contact me <leegyu4dev@gmail.com>
     - Vitest
     - Playwright
 - Tools
-    - pgadmin4 (docker compose)
-    - biome
+    - DB Client: pgadmin4 (docker compose)
+    - Linter: ESLint
+    - Formatter: Biome
+
+## Ref.
+
+- How to set my docker compose env file
+    - https://docs.docker.com/compose/how-tos/environment-variables/variable-interpolation/
+    - Example to init docker compose
+
+        ```bash
+        docker compose --env-file .env.prod up -d
+        ```
+    
